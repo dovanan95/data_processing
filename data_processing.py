@@ -12,7 +12,7 @@ with open('D:\dev\webscrap_nhthu\m1.csv') as csvDataFile:
         for e in row:
             data_matrix.append(float(e))
 
-data_matrix = np.array(data_matrix).reshape(len(lennn), 6)
+data_matrix = np.array(data_matrix).reshape(len(lennn), len(lennn[0])
 
 #rint(data_matrix)
 
